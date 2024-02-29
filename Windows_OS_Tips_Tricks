@@ -1,0 +1,13 @@
+
+# Document Edition v_1.0
+# Important Tips, Tricks and Work-arounds on Windows Server
+
+# Resetting Windows Server Trail for 180 days up to 06 Times - Applicable on Windows 2016,2019,2022
+# Run cmd as Administator
+# To check the License current State 
+SLMGR -DLV
+# To reset the Windows License up to 6 times
+SLMGR -REARM
+# Reboot the Server Node, Windows Trail will reset to 180 days
+# Source - https://www.uubyte.com/blog/what-happens-when-windows-server-evaluation-expires/
+

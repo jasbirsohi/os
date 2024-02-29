@@ -29,3 +29,7 @@ sudo apt install xrdp
 sudo systemctl enable xrdp
 # without the quotes, and press enter: this will enable the xRDP listening service
 # Your Ubuntu computer is now able to accept RDP connections
+
+
+# How to Install Dig on Linux
+For Debian and Ubuntu: apt-get install dnsutils.
